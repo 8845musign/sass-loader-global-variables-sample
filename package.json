@@ -1,0 +1,38 @@
+{
+  "name": "sass-loader-global-variables-sample",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack-dev-server --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8845musign/sass-loader-global-variables-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/8845musign/sass-loader-global-variables-sample/issues"
+  },
+  "homepage": "https://github.com/8845musign/sass-loader-global-variables-sample#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.27.3",
+    "node-sass": "^4.5.1",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.0",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
