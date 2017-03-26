@@ -1,7 +1,5 @@
 var path = require('path');
 
-console.log(path.resolve(__dirname, 'app/styles'));
-
 module.exports = {
   entry: './app/index.js',
   output: {
@@ -29,7 +27,6 @@ module.exports = {
         }],
         exclude: /node_modules/,
       }
-
     ]
   },
   devServer: {
